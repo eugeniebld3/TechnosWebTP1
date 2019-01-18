@@ -1,0 +1,47 @@
+body{
+    
+    font-family:monospace;
+     background-image: url("151.jpg");
+    
+}
+
+h2{
+   text-align: center;
+}
+
+video{
+    visibility: 
+}
+
+ul {
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A14143;
+    
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #E18095;
+}
+
+.active {
+  background-color: #E1A2A5;
+}
