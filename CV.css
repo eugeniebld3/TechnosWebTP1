@@ -1,19 +1,72 @@
 body{
     
     font-family:monospace;
-     background-image: url("151.jpg");
+     background-image: url("50.jpg");
+    background-size:cover;
     
 }
 
-h2{
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-size: 52px;
+    color:rgba(83, 135, 108,0.9);
+}
+ 
+
+
+#text{
+    animation-name: text;
+    display: block;
+    position: relative;
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
    text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
 }
 
-video{
-    visibility: 
+#text2{
+    display: block;
+    position: center;
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+
+
+
+#video{
+    margin-top: 100px;
+    text-align: center;
+}
+
+img{
+    
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+    border-style:solid;
+    border-color: whitesmoke;
+    box-shadow: 5px 5px 2px whitesmoke;
 }
 
 ul {
+  width:100%;
   top: 0;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -21,7 +74,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #A14143;
+  background-color: #5C9678;
     
 }
 
@@ -39,9 +92,12 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #E18095;
+  background-color: #E8ACAE;
 }
 
 .active {
   background-color: #E1A2A5;
+}
+footer{
+    color: white;
 }

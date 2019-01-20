@@ -1,0 +1,126 @@
+body{
+    
+    font-family:monospace;
+     background-image: url("50.jpg");
+    background-size:cover;
+    
+}
+
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-size: 52px;
+    color:rgba(83, 135, 108,0.9);
+}
+
+h3{
+    color: whitesmoke;
+}
+ 
+.contact{
+    background-color:rgba(254, 254, 254,0.9);
+    color: rgba(83, 135, 108,1);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    
+}
+
+
+#form{
+    
+    text-align: center;
+    color: white;
+    background-color:rgba(83, 135, 108,0.9);
+    width:50%;
+    margin-right: auto;
+    margin-left: 20%;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: 254, 254, 254, 0.5;
+    
+}
+
+
+#text{
+    animation-name: text;
+    display: block;
+    position: relative;
+    width:50%;
+    margin-right: auto;
+    margin-left: 20%;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+
+#text2{
+    display: block;
+    position: center;
+    width:50%;
+    margin-right: auto;
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+
+
+
+
+img{
+    
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+    border-style:solid;
+    border-color: whitesmoke;
+    box-shadow: 5px 5px 2px whitesmoke;
+}
+
+ul {
+  width:100%;
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C9678;
+    
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #E8ACAE;
+}
+
+.active {
+  background-color: #E1A2A5;
+}
+footer{
+    color: white;
+}

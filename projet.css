@@ -1,0 +1,95 @@
+
+body{
+    
+    font-family:monospace;
+     background-image: url("50.jpg");
+    background-size:cover;
+    
+}
+
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-size: 52px;
+    color:rgba(83, 135, 108,0.9);
+}
+ 
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5C9678;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+ul {
+  width:100%;
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C9678;
+    
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #E8ACAE;
+}
+
+.active {
+  background-color: #E1A2A5;
+}
+footer{
+    color: white;
+}

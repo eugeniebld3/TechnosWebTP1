@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Contact Eugenie Belland </title>
-    <link rel="stylesheet" href="CV.css">
+    <link rel="stylesheet" href="contact.css">
        
 </head>
 <body>
@@ -19,6 +19,43 @@
     
     
     </nav>
+    
+    
+   <p class="contact"> Vous pouvez me contacter directement par mail, par téléphone ou par courier: <br>
+    
+       
+        <img src ="email.png"> eugenie.belland@edu.ece.fr
+        <img src="location.png"> 94 avenue de suffren
+        <img src="telephone.png"> +33 6 79 20 61 02
+     
+    </p>
+    
+    <div id = "form"> Sinon laissez moi directement un message ici :
+    
+    <form method="post" action="traitement.php">
+    <p>
+        <label for="pseudo">Votre Nom :</label>
+        <input type="text" name="Nom" id="Nom" placeholder="Ex : Bertrand" size="30" maxlength="10" />
+    </p>
+        <p>
+        <label for="email">Votre email :</label>
+        <input type="email" name="email" id="email" placeholder="Ex : Bertrand@gmail.com" size="30" maxlength="10" />
+   <p>
+       <label for="Commentaire">Contacter moi !</label> <br>
+       <textarea name="Commentaire" id="commentaire" placeholder="Ex : J'ai un stage à vous proposer" size="100" maxlength="200" ></textarea>
+   </p>
+        <input type="submit" value="Envoyer" />
+</form>
+     </div>
+    
 
 </body>
+    
+<footer>
+<h6>_______________</h6>
+<audio controls >
+    <source src="PETIT%20BISCUIT%20-%20Sunset%20Lover.mp3" >
+</audio>
+<h6>WEB site by Eugénie Belland </h6>
+</footer>
 </html>	

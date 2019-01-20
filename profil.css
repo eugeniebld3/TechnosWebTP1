@@ -1,0 +1,165 @@
+body{
+    
+    font-family:monospace;
+     background-image: url("50.jpg");
+    background-size: cover; 
+    
+}
+
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-size: 52px;
+    color:rgba(83, 135, 108,0.9);
+}
+ 
+#CV
+{
+    height:100%;
+    width:100%;
+    margin:auto;
+}
+
+#pic
+{
+
+
+}
+#Formation
+{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    float:left;
+    margin-left: 20px;
+    width:30%;
+    height:100%;
+    
+    
+    animation-name: text;
+    display: block;
+    position: relative;
+    width:50%;
+    margin-right: auto;
+    margin-left: 20%;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+#Experiences
+{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    float:left;
+    width:50%;
+    height:100%;
+    
+        display: block;
+    position: center;
+    width:50%;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 30px;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+}
+
+#text{
+    animation-name: text;
+    display: block;
+    position: relative;
+    width:50%;
+    margin-right: auto;
+    margin-left: 20%;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+
+#text2{
+    display: block;
+    position: center;
+    width:50%;
+    margin-right: auto;
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   text-align: center;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+
+
+
+#video{
+    margin-top: 100px;
+    text-align: center;
+}
+
+img{
+    
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+    border-style:solid;
+    border-color: whitesmoke;
+    box-shadow: 5px 5px 2px whitesmoke;
+}
+
+ul {
+  width:100%;
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C9678;
+    
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #E8ACAE;
+}
+
+.active {
+  background-color: #E1A2A5;
+}
+
+footer{
+    color: white;
+}
