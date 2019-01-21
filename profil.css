@@ -30,7 +30,52 @@ h1{
     padding-left: 30px;
     padding-right: 20px;
     padding-bottom: 20px;
-    text-align: center;
+    float:left;
+    margin-left: 20px;
+    width:30%;
+    height:100%;
+    animation-name: text;
+    display: block;
+    position: relative;
+    width:50%;
+    margin-right: auto;
+    margin-left: 20%;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+#Experiences
+{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+   
+    float:left;
+    width:50%;
+    height:100%;
+    
+        display: block;
+    position: center;
+    width:50%;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:rgba(83, 135, 108,0.9);
+    color: white;
+   
+    border-style:solid;
+    border-color: 83, 135, 108, 0.5;
+    box-shadow: 5px 5px 2px #53876C;
+}
+#Competences
+{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+   
     float:left;
     margin-left: 20px;
     width:30%;
@@ -43,73 +88,13 @@ h1{
     width:50%;
     margin-right: auto;
     margin-left: 20%;
+    margin-bottom: 50px;
     background-color:rgba(83, 135, 108,0.9);
     color: white;
-   text-align: center;
+
     border-style:solid;
     border-color: 83, 135, 108, 0.5;
     box-shadow: 5px 5px 2px #53876C;
-}
-#Experiences
-{
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    float:left;
-    width:50%;
-    height:100%;
-    
-        display: block;
-    position: center;
-    width:50%;
-    margin-right: auto;
-    margin-left: 40%;
-    margin-top: 30px;
-    background-color:rgba(83, 135, 108,0.9);
-    color: white;
-   text-align: center;
-    border-style:solid;
-    border-color: 83, 135, 108, 0.5;
-    box-shadow: 5px 5px 2px #53876C;
-}
-}
-
-#text{
-    animation-name: text;
-    display: block;
-    position: relative;
-    width:50%;
-    margin-right: auto;
-    margin-left: 20%;
-    background-color:rgba(83, 135, 108,0.9);
-    color: white;
-   text-align: center;
-    border-style:solid;
-    border-color: 83, 135, 108, 0.5;
-    box-shadow: 5px 5px 2px #53876C;
-}
-
-#text2{
-    display: block;
-    position: center;
-    width:50%;
-    margin-right: auto;
-    margin-left: 45%;
-    margin-top: 30px;
-    background-color:rgba(83, 135, 108,0.9);
-    color: white;
-   text-align: center;
-    border-style:solid;
-    border-color: 83, 135, 108, 0.5;
-    box-shadow: 5px 5px 2px #53876C;
-}
-
-
-
-#video{
-    margin-top: 100px;
-    text-align: center;
 }
 
 img{
@@ -136,6 +121,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #5C9678;
+  opacity: 0.8;
     
 }
 
@@ -161,5 +147,81 @@ li a:hover {
 }
 
 footer{
+    margin-top: 200px;
     color: white;
+}
+.anim {
+  text-align: center;
+  margin-bottom: 150px;
+    color: whitesmoke;
+    font-size: 16px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:rgba(83, 135, 108,0.3); left:0px; top:0px;}
+  25%  {background-color:rgba(83, 135, 108,0.2); left:200px; top:0px;}
+  50%  {background-color:rgba(83, 135, 108,0.2); left:400px; top:0px;}
+  75%  {background-color:rgba(83, 135, 108,0.1); left:600px; top:0px;}
+  100% {background-color:rgba(83, 135, 108,0.1); left:800px; top:0px;}
+}
+.anim2 {
+  text-align: center;
+  margin-bottom: 150px;
+    color: whitesmoke;
+    font-size: 16px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+  0%   {background-color:rgba(83, 135, 108,0.3); left:0px; top:0px;}
+  25%  {background-color:rgba(83, 135, 108,0.2); left:100px; top:0px;}
+  50%  {background-color:rgba(83, 135, 108,0.2); left:300px; top:0px;}
+  75%  {background-color:rgba(83, 135, 108,0.1); left:500px; top:0px;}
+  100% {background-color:rgba(83, 135, 108,0.1); left:700px; top:0px;}
+}
+.anim3 {
+  text-align: center;
+  margin-bottom: 150px;
+    color: whitesmoke;
+    font-size: 16px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+  0%   {background-color:rgba(83, 135, 108,0.3); left:0px; top:0px;}
+  25%  {background-color:rgba(83, 135, 108,0.2); left:300px; top:0px;}
+  50%  {background-color:rgba(83, 135, 108,0.2); left:500px; top:0px;}
+  75%  {background-color:rgba(83, 135, 108,0.1); left:700px; top:0px;}
+  100% {background-color:rgba(83, 135, 108,0.1); left:900px; top:0px;}
 }

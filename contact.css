@@ -1,7 +1,7 @@
 body{
     
     font-family:monospace;
-     background-image: url("50.jpg");
+     background-image: url("49.jpg");
     background-size:cover;
     
 }
@@ -38,7 +38,81 @@ h3{
     margin-top: 30px;
     border-style: solid;
     border-color: 254, 254, 254, 0.5;
-    
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.anim {
+  text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:rgba(83, 135, 108,0.9); left:0px; top:0px;}
+  25%  {background-color:rgba(83, 135, 108,0.7); left:200px; top:0px;}
+  50%  {background-color:rgba(83, 135, 108,0.5); left:400px; top:0px;}
+  75%  {background-color:rgba(83, 135, 108,0.3); left:600px; top:0px;}
+  100% {background-color:rgba(83, 135, 108,0.1); left:800px; top:0px;}
+}
+.anim2 {
+  text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+  0%   {background-color:rgba(83, 135, 108,0.9); left:0px; top:0px;}
+  25%  {background-color:rgba(83, 135, 108,0.7); left:100px; top:0px;}
+  50%  {background-color:rgba(83, 135, 108,0.5); left:300px; top:0px;}
+  75%  {background-color:rgba(83, 135, 108,0.3); left:500px; top:0px;}
+  100% {background-color:rgba(83, 135, 108,0.1); left:700px; top:0px;}
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4D7D58;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #FFF;
+}
+
+.button:hover {background-color: #395C41}
+
+.button:active {
+  background-color: #395C41;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
 }
 
 
@@ -98,6 +172,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #5C9678;
+  opacity: 0.8;
     
 }
 
